@@ -1,0 +1,48 @@
+.docs__container {
+    .form-control {
+        height: 48px;
+        border-radius: 10px;
+    }
+    padding: 30px;
+    .list__menus {
+        li {
+            font-size: 16px;
+            cursor: pointer;
+            &.active {
+                font-weight: bold;
+            }
+        }
+    }
+    .card__container {
+        .card {
+            border-radius: 20px;
+            box-shadow: 0px 0px 5px 2px #ebebeb;
+            .card-header {
+                background-color: transparent;
+                border: none;
+                span {
+                    float: right;
+                    padding: 4px 20px 6px 20px;
+                    border-radius: 20px;
+                    font-size: 14px;
+
+                    &.Technical {
+                        background-color: #e7dfeb;
+                    }
+                    &.Financial {
+                        background-color: #e5eade;
+                    }
+                    &.Human {
+                        background-color: #deeae9;
+                    }
+                    &.Marketing {
+                        background-color: #eae4de;
+                    }
+                }
+            }
+            .card-body {
+                font-weight: bold;
+            }
+        }
+    }
+}

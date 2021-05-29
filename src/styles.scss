@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    height: 100%;
+    body {
+        @extend html;
+        background-color: #f1f1f1;
+    }
+}
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1450px !important;
+    }
+    body {
+        padding-top: 80px;
+    }
+}
